@@ -18,8 +18,9 @@ jobs:
           distribution: temurin
           java-version: '21'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      # ubuntu-latest ships with an Android SDK + accepted licenses preinstalled
+      # (ANDROID_HOME already set); AGP will auto-download any missing platform
+      # or build-tools components during the Gradle build itself.
 
       # The project's custom debug signing config expects a debug.keystore at
       # the repo root (gitignored locally); generate a matching one in CI.
