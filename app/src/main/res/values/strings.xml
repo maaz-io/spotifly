@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Spotifly</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_library">Your Library</string>
+    <string name="create_playlist">Create Playlist</string>
+    <string name="liked_songs">Liked Songs</string>
+    <string name="fetching_audio">Fetching audio...</string>
+    <string name="search_placeholder">What do you want to play? (\'/\' to focus)</string>
+    <string name="search_local_header">From Your Library</string>
+    <string name="search_web_ingest_header">Ingestion Pipeline</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="repeat">Repeat</string>
+    <string name="like">Like</string>
+    <string name="queue">Queue</string>
+</resources>

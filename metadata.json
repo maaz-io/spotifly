@@ -1,0 +1,6 @@
+{
+  "name": "Spotifly",
+  "description": "Spotify clone with music playback, playlist manager, and search ingestion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
